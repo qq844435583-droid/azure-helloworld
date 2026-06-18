@@ -1,8 +1,5 @@
 {
   "scripts": {
-    "start": "npx serve -s . -l ${PORT:-8080}"
-  },
-  "dependencies": {
-    "serve": "^14.2.4"
+    "start": "node server.js"
   }
 }
